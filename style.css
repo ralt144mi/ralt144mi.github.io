@@ -30,7 +30,7 @@ body {
 
 .boxartiste {
     float: center;
-      border: 19px ridge #d3ff00;
+      border: 19px ridge yellow;
       background-color: WhiteSmoke;
       margin: 5% 5% 5% 5%;
     padding: 30px;
