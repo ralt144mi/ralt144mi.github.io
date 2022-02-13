@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'VG5000';
- src: url(https://rhoumi.github.io/styles/VG5000/VG5000-Regular.otf) format("opentype"), 
-        url(https://rhoumi.github.io/styles/VG5000/VG5000-Regular_web.eot),     
-       url(https://rhoumi.github.io/styles/VG5000/VG5000-Regular_web.woff2) format("woff2"), 
-       url(https://rhoumi.github.io/styles/VG5000/VG5000-Regular_web.woff) format("woff"), 
-        url(https://rhoumi.github.io/styles/VG5000/VG5000-Regular_web.otf) format("opentype");
+ src: url(https://livecoding5mars.github.io/VG5000/VG5000-Regular.otf) format("opentype"), 
+        url(https://livecoding5mars.github.io/VG5000/VG5000-Regular_web.eot),     
+       url(https://livecoding5mars.github.io/VG5000/VG5000-Regular_web.woff2) format("woff2"), 
+       url(https://livecoding5mars.github.io/VG5000/VG5000-Regular_web.woff) format("woff"), 
+        url(https://livecoding5mars.github.io/VG5000/VG5000-Regular_web.otf) format("opentype");
   
 }
 
