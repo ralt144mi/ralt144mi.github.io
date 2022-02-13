@@ -21,6 +21,10 @@
 
 body {
   float : center;
+  font-family: 'VG5000';
+   font-weight: normal;
+   font-style: normal;    font-stretch: ultra-condensed;  
+    font-size: 1em;
   
 }
 
