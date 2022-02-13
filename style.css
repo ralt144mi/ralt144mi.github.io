@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'VG5000';
+ src: url(https://rhoumi.github.io/styles/VG5000/VG5000-Regular.otf) format("opentype"), 
+        url(https://rhoumi.github.io/styles/VG5000/VG5000-Regular_web.eot),     
+       url(https://rhoumi.github.io/styles/VG5000/VG5000-Regular_web.woff2) format("woff2"), 
+       url(https://rhoumi.github.io/styles/VG5000/VG5000-Regular_web.woff) format("woff"), 
+        url(https://rhoumi.github.io/styles/VG5000/VG5000-Regular_web.otf) format("opentype");
+  
+}
+
+
+#imageprofil {
+    float: left;
+    border: 15px ridge #f7bd40;
+    background-color: WhiteSmoke;
+    margin: 5% 2% 2% 10%;
+    padding: 0px;
+    width: 50%;
+    box-shadow: 2px 2px 12px #555;
+}
