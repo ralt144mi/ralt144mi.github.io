@@ -10,11 +10,35 @@
 
 
 #imageprofil {
-    float: left;
+    float: center;
     border: 15px ridge #f7bd40;
     background-color: WhiteSmoke;
-    margin: 5% 2% 2% 10%;
+    margin: 5% 5% 5% 5%;
     padding: 0px;
     width: 50%;
     box-shadow: 2px 2px 12px #555;
+}
+
+body {
+  float : center;
+  
+}
+
+
+.artiste {
+    font-size: x-large;
+    color: DarkBlue;
+}
+
+.bio {
+  color: yellow;
+  font-size: medium;
+  text-shadow: DarkBlue 1px 0 10px;
+
+}
+
+.lien {
+  color: DarkBlue;
+  font-size: medium;
+  text-shadow: DarkBlue 1px 0 10px;  
 }
