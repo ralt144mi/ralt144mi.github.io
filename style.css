@@ -11,7 +11,7 @@
 
 #imageprofil {
     float: center;
-    border: 19px ridge LightGreen;
+    border: 19px ridge LightBlue;
     background-color: WhiteSmoke;
     margin: 5% 5% 5% 5%;
     padding: 0px;
@@ -30,7 +30,7 @@ body {
 
 .boxartiste {
     float: center;
-      border: 19px ridge Green;
+      border: 19px ridge RoyalBlue;
       background-color: WhiteSmoke;
       margin: 5% 5% 5% 5%;
     padding: 30px;
