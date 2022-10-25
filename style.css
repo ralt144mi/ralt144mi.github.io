@@ -109,8 +109,8 @@ body {
 /* Le menu déroulant*/
 
 .dropbtn {                      /* Classe des dossiers principaux du menu déroulant*/
-    background-color: lightgrey;      
-    color: black;
+    background-color: lightblue;      
+    color: darkblue;
     padding: 15px;
     font-size: 25px;
     border: none;                   /*Informations relatives au menu déroulant*/
@@ -131,15 +131,15 @@ body {
 .dropdown-content {             /*classe des sous dossiers du menu déroulant*/
     display: none;
     position: absolute;
-    background-color: lightgrey;                      /*Informations relatives aux sous dossiers du menu déroulant*/
+    background-color: lightblue;                      /*Informations relatives aux sous dossiers du menu déroulant*/
     min-width: 100px;
     font-size: 25px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px DarkBlue;
     
 }
 
 .dropdown-content a {                  
-    color: black;
+    color: Darkblue;
     padding: 12px 16px;                     /*Informations relatives aux liens des sous dossiers du menu déroulant*/
     text-decoration: none;
     display: block;
@@ -149,7 +149,7 @@ body {
 .dropdown-content a:hover {
    text-shadow: -100px -20px red, 100px -20px darkgreen, 50px 20px darkblue;
     z-index: 7;  
-    background-color: grey;
+    background-color: Darkblue;
 
 } 
 
@@ -164,7 +164,7 @@ body {
 .dropdown:hover .dropbtn {   
    text-shadow: -100px -20px red, 100px -20px darkgreen, 50px 20px darkblue;
     z-index: 7;                                                /* Permettent un changement de couleur au passage de la souris sur le menu déroulant */
-    background-color: grey;
+    background-color: lightblue;
 
 } 
 
@@ -172,6 +172,7 @@ body {
 .list {                           
     top: 0;
     padding: 0px;
+    margin-left:75%;
     list-style-type: none;
     display: flex;
     width: 75px;
