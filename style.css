@@ -62,11 +62,13 @@ body {
   height:100%;
   display: flex;
   flex-wrap:wrap;
+  margin-bottom : 5%;
 }
 
 .card {
   perspective : 1000px;
   width : 1000px;
+  height : 500px;
   position: relative;
 }
 
