@@ -90,12 +90,10 @@ body {
 
 .card:hover .back {
   transform: rotateY(-180deg);
-  cursor:pointer;
 }
 
 .card:hover .front {
   transform: rotateY(0deg);
-  cursor:pointer;
 }
 
 
