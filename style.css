@@ -61,10 +61,7 @@ body {
 .container{
   height:100%;
   display: flex;
-  justify-content:center;
-  align-items : center;
   flex-wrap:wrap;
-  margin-bottom : 25%;
 }
 
 .card {
@@ -72,25 +69,24 @@ body {
   height : 950px;
   width : 1200px;
   position: relative;
-  margin:5px;
 }
 
 .card img{
-  width : 900px;
+  width : 100%;
 }
 
 .card .back {
   position: absolute;
   transform: rotateY(0deg);
   backface-visibility: hidden;
-  transition : transform 0.4s linear;
+  transition : transform 0.8s linear;
 }
 
 .card .front {
   position: absolute;
   transform: rotateY(180deg);
   backface-visibility: hidden;
-  transition : transform 0.4s linear;
+  transition : transform 0.8s linear;
 }
 
 .card:hover .back {
