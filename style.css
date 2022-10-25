@@ -27,6 +27,14 @@ body {
   
 }
 
+#boxdates {
+    float: center;
+    border: 25px ridge LightBlue;
+    background-color: WhiteSmoke;
+    padding: 2%;
+    box-shadow: 2px 2px 12px #555;
+}
+
 .boxartiste {
     float: center;
       border: 25px ridge RoyalBlue;
