@@ -147,7 +147,7 @@ body {
 }
 
 .dropdown-content a:hover {
-   text-shadow: -100px -20px red, 100px -20px darkgreen, 50px 20px darkblue;
+   text-shadow: -100px -20px lightgreen, 100px -20px darkgreen, 50px 20px green;
     z-index: 7;  
     background-color: Darkblue;
 
@@ -162,7 +162,7 @@ body {
 }
 
 .dropdown:hover .dropbtn {   
-   text-shadow: -100px -20px red, 100px -20px darkgreen, 50px 20px darkblue;
+   text-shadow: -100px -20px lightgreen, 100px -20px darkgreen, 50px 20px green;
     z-index: 7;                                                /* Permettent un changement de couleur au passage de la souris sur le menu déroulant */
     background-color: lightblue;
 
