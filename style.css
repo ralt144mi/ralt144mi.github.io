@@ -12,7 +12,7 @@
 
 #imageprofil {
     float: center;
-    border: 19px ridge LightBlue;
+    border: 25px ridge LightBlue;
     background-color: WhiteSmoke;
     padding: 0px;
     box-shadow: 2px 2px 12px #555;
@@ -29,7 +29,7 @@ body {
 
 .boxartiste {
     float: center;
-      border: 19px ridge RoyalBlue;
+      border: 25px ridge RoyalBlue;
       background-color: WhiteSmoke;
       margin: 5% 5% 5% 5%;
     padding: 30px;
@@ -68,6 +68,7 @@ body {
   height : 600px;
   width : 1000px;
   position: relative;
+  margin : 1% 1% 1% 1% ;
 }
 
 .card img{
