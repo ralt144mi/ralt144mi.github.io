@@ -67,6 +67,7 @@ body {
 .card {
   perspective : 100%;
   height : 600px;
+  width : 500px;
   position: relative;
 }
 
