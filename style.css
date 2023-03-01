@@ -28,7 +28,7 @@ body {
 }
 
 #boxdates {
-    float: center;
+    float: left;
     border: 25px ridge LightBlue;
     background-color: WhiteSmoke;
     padding: 2%;
