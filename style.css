@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'VG5000';
- src: url(https://ralt144mi.github.io/VG5000/VG5000-Regular.otf) format("opentype"), 
-        url(https://ralt144mi.github.io/VG5000/VG5000-Regular_web.eot),     
-       url(https://ralt144mi.github.io/VG5000/VG5000-Regular_web.woff2) format("woff2"), 
-       url(https://ralt144mi.github.io/VG5000/VG5000-Regular_web.woff) format("woff"), 
-        url(https://ralt144mi.github.io/VG5000/VG5000-Regular_web.otf) format("opentype");
+ src: url(VG5000/VG5000-Regular.otf) format("opentype"), 
+        url(VG5000/VG5000-Regular_web.eot),     
+       url(VG5000/VG5000-Regular_web.woff2) format("woff2"), 
+       url(VG5000/VG5000-Regular_web.woff) format("woff"), 
+        url(VG5000/VG5000-Regular_web.otf) format("opentype");
   
 }
 
