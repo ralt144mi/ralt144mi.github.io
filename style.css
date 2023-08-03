@@ -96,6 +96,7 @@ body {
   
 .fish:active {
   font-size: small;
+  transform: scale(0.8);
   color: LightGreen;
 }
   
