@@ -89,14 +89,6 @@ body {
 /* Fishes */
 
 .fish {
-  text-align: center; 
-  position: fixed;
-  height: 80px;
-  bottom: 80%;
-  left: 0;
-  right: 0;
-  opacity: 0.75;
-  font-size: xx-large;
   color: DarkBlue;
   font-size: medium;
   text-shadow: DarkBlue 1px 0 10px;  
