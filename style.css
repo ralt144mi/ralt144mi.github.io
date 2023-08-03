@@ -86,7 +86,13 @@ body {
   font-size: medium;
   text-shadow: DarkBlue 1px 0 10px;  
 }
+/* Fishes */
 
+.fish:active {
+  font-size: small;
+  color: Green;
+}
+  
 /* Image*/
 .container{
   height:100%;
