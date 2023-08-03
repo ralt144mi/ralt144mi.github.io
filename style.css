@@ -122,11 +122,11 @@ body {
   transition : transform 0.8s linear;
 }
 
-.card:active .back {
+.card:checked + label > img .back {
   transform: rotateY(-180deg);
 }
 
-.card:active .front {
+.card:checked + label > img .front {
   transform: rotateY(0deg);
 }
 
