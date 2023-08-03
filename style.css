@@ -122,11 +122,11 @@ body {
   transition : transform 0.8s linear;
 }
 
-.card:hover .back {
+.card:active .back {
   transform: rotateY(-180deg);
 }
 
-.card:hover .front {
+.card:active .front {
   transform: rotateY(0deg);
 }
 
