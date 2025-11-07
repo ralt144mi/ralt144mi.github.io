@@ -246,5 +246,57 @@ body {
 .dropbtn a:visited {
      color: black;            /*Pour que les liens du menu déroulant après visites restent identiques */
      text-decoration: none;
-     
+
+
+/* === FISH BACKGROUND === */
+.background-fishes {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.75;
+  font-size: xx-large;
+  text-align: center;
+}
+
+/* Poisson style */
+.fish {
+  position: absolute;
+  white-space: nowrap;
+  animation: swim var(--speed, 20s) linear infinite;
+  top: var(--y, 50%);
+}
+
+/* Direction droite -> gauche */
+@keyframes swim {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+
+/* Poissons inversés (gauche -> droite) */
+.fish.reverse {
+  animation: swim-reverse var(--speed, 20s) linear infinite;
+}
+
+@keyframes swim-reverse {
+  0% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+
+
+
+  
     }    
